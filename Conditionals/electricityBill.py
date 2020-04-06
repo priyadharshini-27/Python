@@ -7,5 +7,7 @@ elif electricity_unit>150 and electricity_unit<=250:
     charge=75+(electricity_unit-150)*1.20
 elif electricity_unit>250:
     charge=200+(electricity_unit-250)*1.5
+#sub charge
 subcharge=(0.2)*charge
+#total charge
 print(charge+subcharge)
