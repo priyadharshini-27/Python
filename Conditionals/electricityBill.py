@@ -1,4 +1,5 @@
 electricity_unit=int(input("Enter the units consumed :"))
+#units
 if electricity_unit<=50:
     charge=electricity_unit*0.50
 elif electricity_unit>50 and electricity_unit<=150:
